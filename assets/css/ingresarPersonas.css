@@ -97,7 +97,7 @@ body {
 .datos-ingresarPersonas div {
     display: grid;
     grid-template-columns: 100px 200px;
-    gap: 20px;
+    gap: 35px;
 
 }
 
