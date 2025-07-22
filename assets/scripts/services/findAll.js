@@ -23,7 +23,7 @@ document.getElementById('btn-mostrar').addEventListener('click', () => {
                 <td>${per.entrada_per}</td>
                 <td>${per.salida_per ? per.salida_per : '--'}</td>
                 <td>
-                    <button class="btn-eliminar-table">
+                    <button id="btn-eliminar-fila" class="btn-eliminar-table" data-id="${per.id_per}">
                         <img class="icono-eliminar-table" src="../assets/icons/ban-outline.svg">
                     </button>
                 </td>
