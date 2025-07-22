@@ -8,7 +8,7 @@ document.getElementById('btn-buscar-por-rut').addEventListener('click', () => {
     .then(res => res.json())
     .then(data => {
 
-        const tbody = document.querySelector('#table-personas');
+        const tbody = document.querySelector('#table-personas tbody');
         tbody.innerHTML = '';
 
         const fila = document.createElement('tr');
