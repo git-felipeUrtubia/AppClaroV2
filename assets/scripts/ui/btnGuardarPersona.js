@@ -1,5 +1,5 @@
 
-import { savePersona } from "../services/Save";
+import { savePersona } from "../services/Save.js";
 
 document.getElementById('btn-guardar').addEventListener('click', async () => {
 
@@ -29,7 +29,6 @@ document.getElementById('btn-guardar').addEventListener('click', async () => {
         console.error('Error al guardar:', error);
         alert('Ocurrió un error al guardar la persona.');
     }
-
 });
 
 
